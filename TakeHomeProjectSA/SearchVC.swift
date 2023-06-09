@@ -9,6 +9,9 @@ import UIKit
 
 class SearchVC: UIViewController {
 
+    let logoImageView = UIImageView()
+    let usernameTextField = GFTextField()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemPurple
