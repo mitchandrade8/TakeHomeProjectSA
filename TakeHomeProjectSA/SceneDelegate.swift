@@ -17,12 +17,36 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
    
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
+        let searchNC = UINavigationController(rootViewController: SearchVC())
+        let favoritesNC = UINavigationController(rootViewController: FavoritesListVC())
+        
+        let tabbar = UITabBarController()
+        tabbar.viewControllers = [searchNC, favoritesNC]
+        
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = ViewController()
+        window?.rootViewController = UITabBarController()
         window?.makeKeyAndVisible()
         
     }
+    
+    
+    func createSearchNavigationController() -> UINavigationController {
+        let searchVC = SearchVC()
+        searchVC.title = "Search"
+        searchVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
+        
+        return UINavigationController(rootViewController: searchVC)
+    }
+    
+    func createFavoritesNavigationController() -> UINavigationController {
+        let favoritesListVC = FavoritesListVC()
+        favoritesListVC.title = "Favorites"
+        favoritesListVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
+        
+        return UINavigationController(rootViewController: favoritesListVC)
+    }
+    
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
@@ -31,21 +55,25 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
     }
 
+    
     func sceneDidBecomeActive(_ scene: UIScene) {
         // Called when the scene has moved from an inactive state to an active state.
         // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
     }
 
+    
     func sceneWillResignActive(_ scene: UIScene) {
         // Called when the scene will move from an active state to an inactive state.
         // This may occur due to temporary interruptions (ex. an incoming phone call).
     }
 
+    
     func sceneWillEnterForeground(_ scene: UIScene) {
         // Called as the scene transitions from the background to the foreground.
         // Use this method to undo the changes made on entering the background.
     }
 
+    
     func sceneDidEnterBackground(_ scene: UIScene) {
         // Called as the scene transitions from the foreground to the background.
         // Use this method to save data, release shared resources, and store enough scene-specific state information
