@@ -14,6 +14,7 @@
 		7471F1D32A33B733004B8D56 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471F1D22A33B733004B8D56 /* SearchVC.swift */; };
 		7471F1D52A33B76C004B8D56 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471F1D42A33B76C004B8D56 /* FavoritesListVC.swift */; };
 		7471F1D72A33C54F004B8D56 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471F1D62A33C54F004B8D56 /* GFButton.swift */; };
+		7471F1D92A33C963004B8D56 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471F1D82A33C963004B8D56 /* GFTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7471F1D22A33B733004B8D56 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		7471F1D42A33B76C004B8D56 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		7471F1D62A33C54F004B8D56 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		7471F1D82A33C963004B8D56 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				7471F1D22A33B733004B8D56 /* SearchVC.swift */,
 				7471F1D42A33B76C004B8D56 /* FavoritesListVC.swift */,
 				7471F1D62A33C54F004B8D56 /* GFButton.swift */,
+				7471F1D82A33C963004B8D56 /* GFTextField.swift */,
 			);
 			path = TakeHomeProjectSA;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7471F1D92A33C963004B8D56 /* GFTextField.swift in Sources */,
 				7471F1D52A33B76C004B8D56 /* FavoritesListVC.swift in Sources */,
 				7471F1D72A33C54F004B8D56 /* GFButton.swift in Sources */,
 				7471F1D32A33B733004B8D56 /* SearchVC.swift in Sources */,
