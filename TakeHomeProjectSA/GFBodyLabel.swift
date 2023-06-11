@@ -1,5 +1,5 @@
 //
-//  GFTitleLabel.swift
+//  GFBodyLabel.swift
 //  TakeHomeProjectSA
 //
 //  Created by Mitch Andrade on 6/11/23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class GFTitleLabel: UILabel {
+class GFBodyLabel: UILabel {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -20,19 +20,19 @@ class GFTitleLabel: UILabel {
     }
     
     
-    init(textAlignment: NSTextAlignment, fontSize: CGFloat) {
+    init(textAlignment: NSTextAlignment) {
         super.init(frame: .zero)
         self.textAlignment = textAlignment
-        self.font = UIFont.systemFont(ofSize: fontSize, weight: .bold)
         configure()
     }
     
     
     private func configure() {
-        textColor = .label
+        textColor = .secondaryLabel
+        font = UIFont.preferredFont(forTextStyle: .body)
         adjustsFontSizeToFitWidth = true
-        minimumScaleFactor = 0.9
-        lineBreakMode = .byTruncatingTail
+        minimumScaleFactor = 0.75
+        lineBreakMode = .byWordWrapping
         translatesAutoresizingMaskIntoConstraints = false
     }
     

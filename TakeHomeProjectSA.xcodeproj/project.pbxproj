@@ -17,6 +17,8 @@
 		7471F1D92A33C963004B8D56 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471F1D82A33C963004B8D56 /* GFTextField.swift */; };
 		7471F1DB2A35E478004B8D56 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471F1DA2A35E478004B8D56 /* FollowerListVC.swift */; };
 		7471F1DD2A35EB2A004B8D56 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471F1DC2A35EB2A004B8D56 /* GFTitleLabel.swift */; };
+		7471F1DF2A35ECE9004B8D56 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471F1DE2A35ECE9004B8D56 /* GFBodyLabel.swift */; };
+		7471F1E12A35EDA9004B8D56 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471F1E02A35EDA9004B8D56 /* GFAlertVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		7471F1D82A33C963004B8D56 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		7471F1DA2A35E478004B8D56 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		7471F1DC2A35EB2A004B8D56 /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
+		7471F1DE2A35ECE9004B8D56 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
+		7471F1E02A35EDA9004B8D56 /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				7471F1D82A33C963004B8D56 /* GFTextField.swift */,
 				7471F1DA2A35E478004B8D56 /* FollowerListVC.swift */,
 				7471F1DC2A35EB2A004B8D56 /* GFTitleLabel.swift */,
+				7471F1DE2A35ECE9004B8D56 /* GFBodyLabel.swift */,
+				7471F1E02A35EDA9004B8D56 /* GFAlertVC.swift */,
 			);
 			path = TakeHomeProjectSA;
 			sourceTree = "<group>";
@@ -153,6 +159,8 @@
 				7471F1D52A33B76C004B8D56 /* FavoritesListVC.swift in Sources */,
 				7471F1D72A33C54F004B8D56 /* GFButton.swift in Sources */,
 				7471F1D32A33B733004B8D56 /* SearchVC.swift in Sources */,
+				7471F1E12A35EDA9004B8D56 /* GFAlertVC.swift in Sources */,
+				7471F1DF2A35ECE9004B8D56 /* GFBodyLabel.swift in Sources */,
 				7471F1DD2A35EB2A004B8D56 /* GFTitleLabel.swift in Sources */,
 				7471F1DB2A35E478004B8D56 /* FollowerListVC.swift in Sources */,
 				7471F1BF2A3294EC004B8D56 /* AppDelegate.swift in Sources */,
