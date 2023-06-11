@@ -16,6 +16,7 @@
 		7471F1D72A33C54F004B8D56 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471F1D62A33C54F004B8D56 /* GFButton.swift */; };
 		7471F1D92A33C963004B8D56 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471F1D82A33C963004B8D56 /* GFTextField.swift */; };
 		7471F1DB2A35E478004B8D56 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471F1DA2A35E478004B8D56 /* FollowerListVC.swift */; };
+		7471F1DD2A35EB2A004B8D56 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471F1DC2A35EB2A004B8D56 /* GFTitleLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		7471F1D62A33C54F004B8D56 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		7471F1D82A33C963004B8D56 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		7471F1DA2A35E478004B8D56 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
+		7471F1DC2A35EB2A004B8D56 /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				7471F1D62A33C54F004B8D56 /* GFButton.swift */,
 				7471F1D82A33C963004B8D56 /* GFTextField.swift */,
 				7471F1DA2A35E478004B8D56 /* FollowerListVC.swift */,
+				7471F1DC2A35EB2A004B8D56 /* GFTitleLabel.swift */,
 			);
 			path = TakeHomeProjectSA;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				7471F1D52A33B76C004B8D56 /* FavoritesListVC.swift in Sources */,
 				7471F1D72A33C54F004B8D56 /* GFButton.swift in Sources */,
 				7471F1D32A33B733004B8D56 /* SearchVC.swift in Sources */,
+				7471F1DD2A35EB2A004B8D56 /* GFTitleLabel.swift in Sources */,
 				7471F1DB2A35E478004B8D56 /* FollowerListVC.swift in Sources */,
 				7471F1BF2A3294EC004B8D56 /* AppDelegate.swift in Sources */,
 				7471F1C12A3294EC004B8D56 /* SceneDelegate.swift in Sources */,
