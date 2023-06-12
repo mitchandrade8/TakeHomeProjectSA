@@ -70,10 +70,12 @@
 		7471F1BD2A3294EC004B8D56 /* TakeHomeProjectSA */ = {
 			isa = PBXGroup;
 			children = (
+				7471F1E82A377B71004B8D56 /* Model */,
 				7471F1E62A3690A9004B8D56 /* Extensions */,
 				7471F1E52A369069004B8D56 /* Custom Views */,
 				7471F1E42A369026004B8D56 /* Screens */,
 				7471F1E72A369149004B8D56 /* Support */,
+				7471F1CC2A3294EE004B8D56 /* Info.plist */,
 			);
 			path = TakeHomeProjectSA;
 			sourceTree = "<group>";
@@ -115,9 +117,15 @@
 				7471F1C02A3294EC004B8D56 /* SceneDelegate.swift */,
 				7471F1C72A3294EE004B8D56 /* Assets.xcassets */,
 				7471F1C92A3294EE004B8D56 /* LaunchScreen.storyboard */,
-				7471F1CC2A3294EE004B8D56 /* Info.plist */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		7471F1E82A377B71004B8D56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
