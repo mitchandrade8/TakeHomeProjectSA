@@ -25,6 +25,7 @@
 		7471F1EF2A3782BF004B8D56 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471F1EE2A3782BF004B8D56 /* NetworkManager.swift */; };
 		7471F1F22A37A06C004B8D56 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471F1F12A37A06C004B8D56 /* ErrorMessage.swift */; };
 		7471F1F52A37CB30004B8D56 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471F1F42A37CB30004B8D56 /* FollowerCell.swift */; };
+		7471F1F72A37CC36004B8D56 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471F1F62A37CC36004B8D56 /* GFAvatarImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		7471F1EE2A3782BF004B8D56 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		7471F1F12A37A06C004B8D56 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		7471F1F42A37CB30004B8D56 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		7471F1F62A37CC36004B8D56 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				7471F1D82A33C963004B8D56 /* GFTextField.swift */,
 				7471F1DC2A35EB2A004B8D56 /* GFTitleLabel.swift */,
 				7471F1DE2A35ECE9004B8D56 /* GFBodyLabel.swift */,
+				7471F1F62A37CC36004B8D56 /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				7471F1D52A33B76C004B8D56 /* FavoritesListVC.swift in Sources */,
 				7471F1D72A33C54F004B8D56 /* GFButton.swift in Sources */,
 				7471F1E32A368BF8004B8D56 /* UIViewController+Ext.swift in Sources */,
+				7471F1F72A37CC36004B8D56 /* GFAvatarImageView.swift in Sources */,
 				7471F1D32A33B733004B8D56 /* SearchVC.swift in Sources */,
 				7471F1E12A35EDA9004B8D56 /* GFAlertVC.swift in Sources */,
 				7471F1F52A37CB30004B8D56 /* FollowerCell.swift in Sources */,
