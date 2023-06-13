@@ -11,6 +11,7 @@ class FollowerListVC: UIViewController {
 
     var username: String!
     var collectionView: UICollectionView!
+    var dataSource:
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,7 +52,7 @@ class FollowerListVC: UIViewController {
         flowLayout.sectionInset = UIEdgeInsets(top: padding, left: padding, bottom: padding, right: padding)
         flowLayout.itemSize = CGSize(width: itemWidth, height: itemWidth + 40)
         
-        return flowLayout()
+        return flowLayout
     }
     
     
